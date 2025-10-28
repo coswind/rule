@@ -63,3 +63,27 @@ DOMAIN-SUFFIX,redd.it
 DOMAIN-SUFFIX,redditmedia.com
 # 网站静态资源 (如CSS/JS)，保证页面正常渲染
 DOMAIN-SUFFIX,redditstatic.com
+
+
+# 内容：Docker
+# 数量：5条
+# ------------------------------------------------
+# 说明：
+# 此规则列表为开发者设计，确保 Docker 的核心功能正常运行。
+# 它覆盖了 Docker 官网、文档、Docker Hub 镜像仓库以及
+# `docker pull` 和 `docker push` 命令所依赖的后端服务。
+# ------------------------------------------------
+
+# -- 关键词规则 (Broad Coverage) --
+# 广泛覆盖 Docker 相关的各类子域名和服务
+DOMAIN-KEYWORD,docker
+
+# -- 核心服务与域名 --
+# Docker 官网、文档和账户管理
+DOMAIN-SUFFIX,docker.com
+# Docker Hub 网站，用于搜索和管理镜像
+DOMAIN-SUFFIX,hub.docker.com
+# 核心镜像仓库 (Registry)，`docker pull/push` 操作的关键
+DOMAIN-SUFFIX,docker.io
+# Docker Hub 的静态资源 CDN，确保网站正常加载
+DOMAIN-SUFFIX,dockerstatic.com
