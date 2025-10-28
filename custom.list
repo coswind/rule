@@ -19,6 +19,7 @@ DOMAIN-SUFFIX,discordapp.com
 # 客户端静态资源 CDN (保证程序正常加载)
 DOMAIN-SUFFIX,discordapp.net
 
+
 # 内容：Telegram
 # 数量：4条
 # ------------------------------------------------
@@ -38,3 +39,27 @@ DOMAIN-SUFFIX,telegram.org
 DOMAIN-SUFFIX,t.me
 # Telegraph 平台，用于发布长文章
 DOMAIN-SUFFIX,telegra.ph
+
+
+# 内容：Reddit
+# 数量：5条
+# ------------------------------------------------
+# 说明：
+# 此规则列表旨在确保 Reddit 的核心功能完整可用。
+# 它覆盖了主站、官方短链接、以及最重要的媒体（图片/视频）
+# 和静态资源（CSS/JS）的 CDN，保证流畅的浏览体验。
+# ------------------------------------------------
+
+# -- 关键词规则 (Broad Coverage) --
+# 兼容各类子域名和相关服务，提高匹配率
+DOMAIN-KEYWORD,reddit
+
+# -- 核心域名与 CDN --
+# Reddit 主站和 API 核心
+DOMAIN-SUFFIX,reddit.com
+# 官方短网址服务，用于分享链接
+DOMAIN-SUFFIX,redd.it
+# 图片、视频、GIF等媒体内容的主要 CDN
+DOMAIN-SUFFIX,redditmedia.com
+# 网站静态资源 (如CSS/JS)，保证页面正常渲染
+DOMAIN-SUFFIX,redditstatic.com
