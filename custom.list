@@ -18,3 +18,23 @@ DOMAIN-SUFFIX,discord.gg
 DOMAIN-SUFFIX,discordapp.com
 # 客户端静态资源 CDN (保证程序正常加载)
 DOMAIN-SUFFIX,discordapp.net
+
+# 内容：Telegram
+# 数量：4条
+# ------------------------------------------------
+# 说明：
+# 此规则列表旨在确保 Telegram 及其相关服务的顺畅访问，
+# 包括主应用、网页版、媒体文件（图片、视频）以及文章发布平台 Telegraph。
+# ------------------------------------------------
+
+# -- 关键词规则 (Broad Coverage) --
+# 确保覆盖包含 'telegram' 关键词的各类域名，提高匹配效率
+DOMAIN-KEYWORD,telegram
+
+# -- 核心服务域名 (Core Service Domains) --
+# 核心域名，覆盖官网、API、网页版及媒体内容 CDN
+DOMAIN-SUFFIX,telegram.org
+# 官方短网址服务，用于分享用户、群组和频道链接
+DOMAIN-SUFFIX,t.me
+# Telegraph 平台，用于发布长文章
+DOMAIN-SUFFIX,telegra.ph
