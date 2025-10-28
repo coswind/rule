@@ -39,6 +39,9 @@ DOMAIN-SUFFIX,telegram.org
 DOMAIN-SUFFIX,t.me
 # Telegraph 平台，用于发布长文章
 DOMAIN-SUFFIX,telegra.ph
+# 资源地址
+IP-CIDR,149.154.160.0/20,no-resolve
+IP-CIDR,91.108.0.0/16,no-resolve
 
 
 # 内容：Reddit
