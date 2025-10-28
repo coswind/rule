@@ -87,3 +87,16 @@ DOMAIN-SUFFIX,hub.docker.com
 DOMAIN-SUFFIX,docker.io
 # Docker Hub 的静态资源 CDN，确保网站正常加载
 DOMAIN-SUFFIX,dockerstatic.com
+
+
+# 内容：自定义规则 (Custom Rules)
+# ------------------------------------------------
+# 说明：
+# 此区域用于存放您个人需要添加的规则。
+# 您可以根据自己的需求，在此处添加任何 DOMAIN-SUFFIX 或 DOMAIN-KEYWORD 规则。
+# 请记得在添加或删除后，手动更新上面的“数量”统计。
+# ------------------------------------------------
+
+# -- 自定义规则 (Custom Rules) --
+# sing-box 项目官网及更新检查
+DOMAIN-SUFFIX,sagernet.org
