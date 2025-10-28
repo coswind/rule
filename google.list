@@ -13,32 +13,50 @@ DOMAIN-KEYWORD,gmail
 DOMAIN-KEYWORD,youtube
 
 # -- 核心基础设施与服务 (Core Infrastructure & Services) --
-DOMAIN-SUFFIX,1e100.net # Google 的后端网络，非常重要
-DOMAIN-SUFFIX,g.co # Google 官方短网址服务
-DOMAIN-SUFFIX,googleapis.com # Google API，所有服务的核心
-DOMAIN-SUFFIX,gstatic.com # 静态资源 (JS/CSS/字体)，保证网页正常加载
-DOMAIN-SUFFIX,googleusercontent.com # 用户内容 (云端硬盘、相册图片等)
-DOMAIN-SUFFIX,googlevideo.com # YouTube 和其他 Google 视频的流媒体数据
-DOMAIN-SUFFIX,ggpht.com # Picasa/Photos等服务的图片主机
+# Google 的后端网络，非常重要
+DOMAIN-SUFFIX,1e100.net
+# Google 官方短网址服务
+DOMAIN-SUFFIX,g.co
+# Google API，所有服务的核心
+DOMAIN-SUFFIX,googleapis.com
+# 静态资源 (JS/CSS/字体)，保证网页正常加载
+DOMAIN-SUFFIX,gstatic.com
+# 用户内容 (云端硬盘、相册图片等)
+DOMAIN-SUFFIX,googleusercontent.com
+# YouTube 和其他 Google 视频的流媒体数据
+DOMAIN-SUFFIX,googlevideo.com
+# Picasa/Photos等服务的图片主机
+DOMAIN-SUFFIX,ggpht.com
 
 # -- Android 与 Play Store --
 DOMAIN-SUFFIX,android.com
 
 # -- YouTube 相关 --
-DOMAIN-SUFFIX,youtu.be # YouTube 短网址
-DOMAIN-SUFFIX,ytimg.com # YouTube 缩略图
+# YouTube 短网址
+DOMAIN-SUFFIX,youtu.be
+# YouTube 缩略图
+DOMAIN-SUFFIX,ytimg.com
 
 # -- 广告与分析 (Ads & Analytics) --
-DOMAIN-SUFFIX,2mdn.net # 属于 DoubleClick 广告网络
-DOMAIN-SUFFIX,app-measurement.com # Google Analytics for Firebase
-DOMAIN-SUFFIX,doubleclick.net # Google 广告核心
-DOMAIN-SUFFIX,google-analytics.com # Google Analytics
-DOMAIN-SUFFIX,googlesyndication.com # Google AdSense
+# 属于 DoubleClick 广告网络
+DOMAIN-SUFFIX,2mdn.net
+# Google Analytics for Firebase
+DOMAIN-SUFFIX,app-measurement.com
+# Google 广告核心
+DOMAIN-SUFFIX,doubleclick.net
+# Google Analytics
+DOMAIN-SUFFIX,google-analytics.com
+# Google AdSense
+DOMAIN-SUFFIX,googlesyndication.com
 
 # -- 开发者与云平台 (Developer & Cloud) --
-DOMAIN-SUFFIX,appspot.com # Google App Engine 服务
-DOMAIN-SUFFIX,firebaseio.com # Firebase 实时数据库
+# Google App Engine 服务
+DOMAIN-SUFFIX,appspot.com
+# Firebase 实时数据库
+DOMAIN-SUFFIX,firebaseio.com
 
 # -- 补充与旧版服务 (Legacy & Regional) --
-DOMAIN-SUFFIX,goo.gl # Google 旧版短网址服务
-DOMAIN-SUFFIX,googleapis.cn # Google API 中国区镜像
+# Google 旧版短网址服务
+DOMAIN-SUFFIX,goo.gl
+# Google API 中国区镜像
+DOMAIN-SUFFIX,googleapis.cn
