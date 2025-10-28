@@ -100,3 +100,5 @@ DOMAIN-SUFFIX,dockerstatic.com
 # -- 自定义规则 (Custom Rules) --
 # sing-box 项目官网及更新检查
 DOMAIN-SUFFIX,sagernet.org
+# v2ex
+DOMAIN-SUFFIX,v2ex.com
