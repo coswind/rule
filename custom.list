@@ -10,7 +10,11 @@
 DOMAIN-KEYWORD,discord
 
 # -- 核心功能域名 (Core Functionality) --
-DOMAIN-SUFFIX,discord.com # 官网、API 和客户端通信
-DOMAIN-SUFFIX,discord.gg # 语音/视频通话服务器和邀请链接
-DOMAIN-SUFFIX,discordapp.com # 用户内容 CDN (头像、附件、图片等)
-DOMAIN-SUFFIX,discordapp.net # 客户端静态资源 CDN (保证程序正常加载)
+# 官网、API 和客户端通信
+DOMAIN-SUFFIX,discord.com
+# 语音/视频通话服务器和邀请链接
+DOMAIN-SUFFIX,discord.gg
+# 用户内容 CDN (头像、附件、图片等)
+DOMAIN-SUFFIX,discordapp.com
+# 客户端静态资源 CDN (保证程序正常加载)
+DOMAIN-SUFFIX,discordapp.net
