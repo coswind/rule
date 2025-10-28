@@ -10,14 +10,21 @@
 DOMAIN-KEYWORD,github
 
 # -- 核心功能域名 (Core Functionality) --
-DOMAIN-SUFFIX,github.com # GitHub 官网和代码仓库
-DOMAIN-SUFFIX,github.io # GitHub Pages 服务，用于托管静态网站
-DOMAIN-SUFFIX,githubassets.com # 网站核心静态资源 (CSS/JS/图片)
-DOMAIN-SUFFIX,githubusercontent.com # 用户内容，如头像、Release附件、Raw源文件
+# GitHub 官网和代码仓库
+DOMAIN-SUFFIX,github.com
+# GitHub Pages 服务，用于托管静态网站
+DOMAIN-SUFFIX,github.io
+# 网站核心静态资源 (CSS/JS/图片)
+DOMAIN-SUFFIX,githubassets.com
+# 用户内容，如头像、Release附件、Raw源文件
+DOMAIN-SUFFIX,githubusercontent.com
 
 # -- 开发者服务 (Developer Services) --
-DOMAIN-SUFFIX,ghcr.io # GitHub Container Registry (容器镜像服务)
-DOMAIN-SUFFIX,github.dev # 基于网页的 VS Code 编辑器
+# GitHub Container Registry (容器镜像服务)
+DOMAIN-SUFFIX,ghcr.io
+# 基于网页的 VS Code 编辑器
+DOMAIN-SUFFIX,github.dev
 
 # -- 其他 (Others) --
-DOMAIN-SUFFIX,git.io # GitHub 官方短网址服务
+# GitHub 官方短网址服务
+DOMAIN-SUFFIX,git.io
