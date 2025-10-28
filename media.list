@@ -8,29 +8,35 @@
 
 # -- YouTube --
 DOMAIN-KEYWORD,youtube
-DOMAIN-SUFFIX,googlevideo.com # YouTube 视频流核心
+# YouTube 视频流核心
+DOMAIN-SUFFIX,googlevideo.com
 
 # -- Netflix --
 DOMAIN-KEYWORD,netflix
-DOMAIN-SUFFIX,nflxvideo.net # Netflix 视频流核心
+# Netflix 视频流核心
+DOMAIN-SUFFIX,nflxvideo.net
 DOMAIN-SUFFIX,nflximg.net
 
 # -- Disney+ --
 DOMAIN-KEYWORD,disneyplus
-DOMAIN-SUFFIX,dssott.com # Disney+ 视频流核心
+# Disney+ 视频流核心
+DOMAIN-SUFFIX,dssott.com
 DOMAIN-SUFFIX,disney-plus.com
 
 # -- Spotify --
 DOMAIN-KEYWORD,spotify
-DOMAIN-SUFFIX,scdn.co # Spotify 音频和图片 CDN
+# Spotify 音频和图片 CDN
+DOMAIN-SUFFIX,scdn.co
 
 # -- Twitch --
 DOMAIN-KEYWORD,twitch
-DOMAIN-SUFFIX,ttvnw.net # Twitch 直播流核心
+# Twitch 直播流核心
+DOMAIN-SUFFIX,ttvnw.net
 
 # -- Vimeo --
 DOMAIN-KEYWORD,vimeo
-DOMAIN-SUFFIX,vimeocdn.com # Vimeo 视频 CDN
+# Vimeo 视频 CDN
+DOMAIN-SUFFIX,vimeocdn.com
 
 # -- HBO Max / MAX --
 DOMAIN-KEYWORD,hbomax
