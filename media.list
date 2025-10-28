@@ -1,0 +1,41 @@
+# 内容：Streaming Media (流媒体)
+# 数量：18条
+# ------------------------------------------------
+# 说明：
+# 包含国际主流的视频、音乐、直播等流媒体平台。
+# 规则经过优化，结合 KEYWORD 和 SUFFIX 确保覆盖核心服务和 CDN。
+# ------------------------------------------------
+
+# -- YouTube --
+DOMAIN-KEYWORD,youtube
+DOMAIN-SUFFIX,googlevideo.com # YouTube 视频流核心
+
+# -- Netflix --
+DOMAIN-KEYWORD,netflix
+DOMAIN-SUFFIX,nflxvideo.net # Netflix 视频流核心
+DOMAIN-SUFFIX,nflximg.net
+
+# -- Disney+ --
+DOMAIN-KEYWORD,disneyplus
+DOMAIN-SUFFIX,dssott.com # Disney+ 视频流核心
+DOMAIN-SUFFIX,disney-plus.com
+
+# -- Spotify --
+DOMAIN-KEYWORD,spotify
+DOMAIN-SUFFIX,scdn.co # Spotify 音频和图片 CDN
+
+# -- Twitch --
+DOMAIN-KEYWORD,twitch
+DOMAIN-SUFFIX,ttvnw.net # Twitch 直播流核心
+
+# -- Vimeo --
+DOMAIN-KEYWORD,vimeo
+DOMAIN-SUFFIX,vimeocdn.com # Vimeo 视频 CDN
+
+# -- HBO Max / MAX --
+DOMAIN-KEYWORD,hbomax
+DOMAIN-SUFFIX,max.com
+
+# -- Apple TV+ & Music --
+DOMAIN-SUFFIX,tv.apple.com
+DOMAIN-SUFFIX,music.apple.com
