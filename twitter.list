@@ -7,10 +7,15 @@
 # ------------------------------------------------
 
 # -- 关键词规则 (Broad Coverage) --
-DOMAIN-KEYWORD,twitter # 兼容旧版应用和服务
+# 兼容旧版应用和服务
+DOMAIN-KEYWORD,twitter
 
 # -- 核心域名 (Core Domains) --
-DOMAIN-SUFFIX,x.com # X.com 新主域名
-DOMAIN-SUFFIX,twitter.com # Twitter 旧主域名，大量应用和链接仍在使用
-DOMAIN-SUFFIX,t.co # 官方短网址服务，平台所有外链的跳转都经过此域名
-DOMAIN-SUFFIX,twimg.com # 图片、视频、GIF 等静态媒体内容的 CDN (内容分发网络)
+# X.com 新主域名
+DOMAIN-SUFFIX,x.com
+# Twitter 旧主域名，大量应用和链接仍在使用
+DOMAIN-SUFFIX,twitter.com
+# 官方短网址服务，平台所有外链的跳转都经过此域名
+DOMAIN-SUFFIX,t.co
+# 图片、视频、GIF 等静态媒体内容的 CDN (内容分发网络)
+DOMAIN-SUFFIX,twimg.com
